@@ -1,0 +1,41 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    height: 266px;
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding:10px ;
+    background-color: hsl(0, 0%, 30%);
+    outline: none;
+}
+input{
+    height: 60px;
+    width: 271px;
+    background-color: hsl(0, 0%, 45%);
+    border: none;
+    font-size: 30px;
+    color: white;
+    outline: none;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+}
+button:hover{
+    background-color: hsl(0, 0%, 70%);
+}
+button:active{
+    background-color: hsl(0, 0%, 80%);
+}
